@@ -1,0 +1,249 @@
+/* Login Page Styles */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+  background: #f5f5f5;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('https://source.unsplash.com/featured/?nature') no-repeat center center/cover;
+}
+
+.login-form {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #666;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #3498db;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #2980b9;
+}
+
+.register-text {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+.register-text a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.register-text a:hover {
+  text-decoration: underline;
+}
+
+/* 404 page */
+
+.not-found {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.not-found h1 {
+  font-size: 80px;
+  color: #ff6b6b;
+}
+
+.not-found h2 {
+  font-size: 30px;
+  color: #333;
+}
+
+.not-found p {
+  margin: 20px 0;
+}
+
+.not-found a {
+  text-decoration: none;
+  color: #4ecdc4;
+  font-size: 18px;
+}
+
+/* loading page */
+/* Loading Page Styles */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+  background: #f0f0f0;
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f0f0f0;
+}
+
+.spinner {
+  width: 80px;
+  height: 80px;
+  border: 10px solid #f3f3f3;
+  border-top: 10px solid #3498db;
+  border-radius: 50%;
+  animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.loading-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 50px;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+/* home screen */
+.userHeader {
+  background-color: #f3f3f3;
+  width: 100%;
+  padding: 6px;
+margin-top: 20px;
+
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 1px 11px 30px -2px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 1px 11px 30px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 11px 30px -2px rgba(0,0,0,0.75);
+  
+}
+.userHeader img{
+  margin-left: 12px;
+}
+
+.userHeader h1 {
+  /* font-size: larger; */
+  /* font-weight: bold; */
+  color: #000000;
+  text-shadow: -4px -4px 6px rgba(0,0,0,0.68);
+}
+
+.users {
+  height: 39px;
+  margin: 20px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  box-shadow: -10px 8px 17px -8px rgba(0,0,0,0.81);
+  -webkit-box-shadow: -10px 8px 17px -8px rgba(0,0,0,0.81);
+  -moz-box-shadow: -10px 8px 17px -8px rgba(0,0,0,0.81);
+ border-radius: 20px;
+ border: 1px solid grey;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  justify-content: space-between;
+background-color: #fafffe;
+
+}
+.users h1{
+  padding-left: 13px;
+  font-size: 20px;
+  font-style: oblique;
+  
+}
+.users p{
+  font-size: 13px;
+  padding-left: 18px;
+  padding-right: 25px;
+  color: #000000;
+  
+}
+.users button{
+  font-size: 15px;
+  padding-left: 18px;
+  padding-right: 25px;
+  background: transparent;
+  border: none;
+  color: black;
+  }
+
+.userlist{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-left: 18px;
+}
+.userlist img{
+  border: 1px solid grey;
+  border-radius: 60px;
+  background-color: whitesmoke;
+}
